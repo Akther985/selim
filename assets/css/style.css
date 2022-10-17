@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    font-family: 'Lato';
+    box-sizing: border-box;
+    font-family: lato;
+}
+html{
+    overflow-x: hidden; 
+}
+body{ 
+    margin: 0;      
+    box-sizing: border-box;
+    overflow-x: hidden; 
+    font-family: 'rubik', sans-serif;    
+}
+.logo{
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    padding: 0;
+    width: 1200px;
+
+}
+.mane-menu{
+    padding: 0;
+    margin: auto;
+}
+.mane-menu ul{
+    list-style: none;
+    float: right;
+    display: flex;   
+}
+.mane-menu ul li{
+    padding-right: 40px;      
+}
+.mane-menu ul> li> a{
+    text-decoration: none;    
+    text-transform: uppercase; 
+    color: rgb(241, 122, 24); 
+    background-color: black;   
+}
+
+
+
+.main{
+    padding-top: 40px;
+}
+
+.main .text:nth-child(1){
+    background-color: rgb(0, 255, 98);
+}
+.main .text:nth-child(2){
+    background-color: aqua;
+}
+.main .text:nth-child(3){
+    background-color: rgb(76, 0, 255);
+}
+.main .text:nth-child(4){
+    background-color: rgb(251, 255, 0);
+}
+.main-2 h1{
+    display: inline-block;
+}
+.menu ul{
+    padding: 0;    
+    list-style: none;
+    margin-left: 40px;
+}
+.menu ul{
+    display: inline-block;
+    padding: 0;    
+    list-style: none;
+}
+.menu-1{
+    float: right;
+}
+.menu-1 ul{
+    display: inline-block;
+    padding: 0;    
+    list-style: none;
+}
+.menu-1 ul li{
+    
+    padding-right: 40px;
+    background-color: black;
+    color: blueviolet;
+}
+.img img{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
